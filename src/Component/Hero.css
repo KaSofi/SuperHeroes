@@ -1,0 +1,48 @@
+body {
+    background-color: rgba(15, 30, 32, 0.2);
+    font-family: 'Times New Roman', Times, serif;
+}
+.heroesHeader {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin: 30px;
+    color: white;
+    text-shadow: 2px 2px 3px #00356c;
+    text-indent: 10px;
+}
+span {
+    color: #d82408;
+    text-shadow: 2px 2px 3px #e1e1eb;
+    font-size: 55px;
+}
+.blockOfCards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.heroCard {
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+    background-color: rgb(244, 243, 243);
+    margin: 10px;
+    box-shadow: 0 1px 10px 1px grey;
+}
+img {
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 5px 5px 0px gray;
+}
+.heroTitle {
+    color: #00356c;
+    font-size: 22px;
+    font-weight: bold;
+}
+.heroText {
+    color: gray;
+    font-weight: bold;
+}
+.heroDescription{
+    font-size: 16px;
+}
